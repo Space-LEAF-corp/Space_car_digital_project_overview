@@ -1,0 +1,11 @@
+{
+  "landingGear": {
+    "perStrutMaxLoad_kN": 25,
+    "normalOps_kN": [8, 9, 8, 9],
+    "anchorPreload_kN": 3
+  },
+  "anchors": {
+    "lunar": {"insertionDepth_m": 1.5, "pullout_kN": 6},
+    "martian": {"insertionDepth_m": 2.0, "pullout_kN": 9}
+  }
+}

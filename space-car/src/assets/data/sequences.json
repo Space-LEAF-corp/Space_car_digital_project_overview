@@ -1,0 +1,8 @@
+{
+  "modes": {
+    "road": ["Seal fan bays", "Wheels normal", "Regenerative suspension active"],
+    "vtol": ["Extend landing gear", "Auto-level", "Tilt/retract wheels", "Open fan doors", "Activate AMB", "Spool lift fans"],
+    "cruise": ["Deploy morphing wings", "Throttle lift fans to idle", "Conventional aero control"],
+    "anchor": ["Lower CG", "Deploy anchors", "Tension guy lines", "Shutter intakes", "Purge bays", "Lock struts"]
+  }
+}

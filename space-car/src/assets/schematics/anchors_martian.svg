@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <style>
+      .anchor { fill: #e67e22; stroke: #d35400; stroke-width: 2; }
+      .cable { fill: none; stroke: #34495e; stroke-width: 3; }
+      .reinforced { stroke: #e74c3c; stroke-width: 4; }
+      .label { fill: #2c3e50; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Anchor pattern for Martian soil -->
+  <circle cx="200" cy="200" r="100" fill="none" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="200" cy="100" r="10" class="anchor"/>
+  <circle cx="300" cy="150" r="10" class="anchor"/>
+  <circle cx="300" cy="250" r="10" class="anchor"/>
+  <circle cx="100" cy="250" r="10" class="anchor"/>
+  <circle cx="100" cy="150" r="10" class="anchor"/>
+  <circle cx="200" cy="300" r="10" class="anchor"/>
+
+  <!-- Reinforced cables for Martian conditions -->
+  <line x1="200" y1="150" x2="200" y2="100" class="reinforced"/>
+  <line x1="200" y1="150" x2="300" y2="150" class="reinforced"/>
+  <line x1="200" y1="150" x2="300" y2="250" class="reinforced"/>
+  <line x1="200" y1="150" x2="100" y2="250" class="reinforced"/>
+  <line x1="200" y1="150" x2="100" y2="150" class="reinforced"/>
+  <line x1="200" y1="150" x2="200" y2="300" class="reinforced"/>
+
+  <!-- Labels -->
+  <text x="200" y="40" class="label">MARTIAN ANCHOR CONFIGURATION</text>
+  <text x="200" y="80" class="label">Reinforced for Regolith</text>
+  <text x="200" y="320" class="label">6-Point Pattern</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <style>
+      .gear { fill: #e74c3c; stroke: #c0392b; stroke-width: 2; }
+      .shock { fill: #f39c12; stroke: #e67e22; stroke-width: 1; }
+      .label { fill: #2c3e50; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Landing gear assembly -->
+  <rect x="150" y="100" width="100" height="150" class="gear" rx="5"/>
+  <rect x="170" y="80" width="60" height="20" class="shock"/>
+  <circle cx="200" cy="250" r="30" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Labels -->
+  <text x="200" y="40" class="label">LANDING GEAR ASSEMBLY</text>
+  <text x="200" y="140" class="label">Shock Absorber</text>
+  <text x="200" y="190" class="label">Strut</text>
+  <text x="200" y="280" class="label">Foot Pad</text>
+</svg>

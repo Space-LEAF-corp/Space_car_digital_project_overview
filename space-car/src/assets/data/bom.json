@@ -1,0 +1,53 @@
+{
+  "assemblies": [
+    {
+      "name": "Chassis & Structure",
+      "items": [
+        {"part": "Titanium spaceframe nodes", "qty": 28, "spec": "Ti-6Al-4V, CNC machined"},
+        {"part": "CFRP body panels", "qty": 12, "spec": "Quasi-isotropic layup"},
+        {"part": "Al-Li mounts", "qty": 6, "spec": "7050-T7451"}
+      ]
+    },
+    {
+      "name": "Landing Gear",
+      "items": [
+        {"part": "Electrohydraulic telescoping strut", "qty": 4, "spec": "1.2 m stroke, 25 kN"},
+        {"part": "Footpads (lunar set)", "qty": 4, "spec": "450 mm honeycomb, serrated"},
+        {"part": "Footpads (martian set)", "qty": 4, "spec": "gimbaled micro-spikes"}
+      ]
+    },
+    {
+      "name": "Anchors",
+      "items": [
+        {"part": "Power-pole deployer", "qty": 4, "spec": "2.0 m insertion"},
+        {"part": "Auger tips (lunar)", "qty": 4, "spec": "wide-flute, anti-backout"},
+        {"part": "Fluke spikes (martian)", "qty": 4, "spec": "barbed, expandable sleeves"},
+        {"part": "Guy-line winch", "qty": 2, "spec": "3 kN preload"}
+      ]
+    },
+    {
+      "name": "Lift & Fans",
+      "items": [
+        {"part": "Inboard ducted fan", "qty": 8, "spec": "1.6 m dia, low DL"},
+        {"part": "Blade ring cartridge (AMB)", "qty": 4, "spec": "CFRP impeller, magnetic coupling"},
+        {"part": "AMB coil stack", "qty": 4, "spec": "radial+axial, liquid-cooled"}
+      ]
+    },
+    {
+      "name": "Wings",
+      "items": [
+        {"part": "Morphing wing panel", "qty": 2, "spec": "electroactive fabric, elevons"},
+        {"part": "Canard assembly", "qty": 2, "spec": "deployable"}
+      ]
+    },
+    {
+      "name": "Avionics & Power",
+      "items": [
+        {"part": "Flight computers", "qty": 3, "spec": "triple-redundant"},
+        {"part": "Hybrid turbogenerator", "qty": 1, "spec": "steady VTOL power"},
+        {"part": "Battery pack", "qty": 1, "spec": "high-C, thermal buffers"},
+        {"part": "Supercap module (crystal core)", "qty": 1, "spec": "transient handling"}
+      ]
+    }
+  ]
+}

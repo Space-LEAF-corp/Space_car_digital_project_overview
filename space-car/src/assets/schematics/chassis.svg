@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <style>
+      .chassis { fill: #4ecdc4; stroke: #2c3e50; stroke-width: 2; }
+      .wheel { fill: #34495e; stroke: #2c3e50; stroke-width: 1; }
+      .label { fill: #2c3e50; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Main chassis body -->
+  <rect x="50" y="120" width="300" height="60" class="chassis" rx="10"/>
+
+  <!-- Wheels -->
+  <circle cx="80" cy="200" r="25" class="wheel"/>
+  <circle cx="120" cy="200" r="25" class="wheel"/>
+  <circle cx="280" cy="200" r="25" class="wheel"/>
+  <circle cx="320" cy="200" r="25" class="wheel"/>
+
+  <!-- Labels -->
+  <text x="200" y="40" class="label">SPACE CAR CHASSIS</text>
+  <text x="200" y="155" class="label">Main Structure</text>
+  <text x="100" y="240" class="label">Landing Gear</text>
+  <text x="300" y="240" class="label">Landing Gear</text>
+
+  <!-- Dimensions -->
+  <line x1="50" y1="100" x2="350" y2="100" stroke="#7f8c8d" stroke-width="1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="200" y="95" class="label">3.2m</text>
+</svg>

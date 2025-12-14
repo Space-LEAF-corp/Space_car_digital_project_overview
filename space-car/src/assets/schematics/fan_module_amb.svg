@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <style>
+      .module { fill: #3498db; stroke: #2980b9; stroke-width: 2; }
+      .blade { fill: #ecf0f1; stroke: #bdc3c7; stroke-width: 1; }
+      .label { fill: #2c3e50; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Fan module housing -->
+  <rect x="150" y="100" width="100" height="100" class="module" rx="10"/>
+  <circle cx="200" cy="150" r="35" fill="none" stroke="#3498db" stroke-width="3"/>
+
+  <!-- Blades -->
+  <rect x="195" y="115" width="10" height="70" class="blade" transform="rotate(0 200 150)"/>
+  <rect x="195" y="115" width="10" height="70" class="blade" transform="rotate(60 200 150)"/>
+  <rect x="195" y="115" width="10" height="70" class="blade" transform="rotate(120 200 150)"/>
+  <rect x="195" y="115" width="10" height="70" class="blade" transform="rotate(180 200 150)"/>
+  <rect x="195" y="115" width="10" height="70" class="blade" transform="rotate(240 200 150)"/>
+  <rect x="195" y="115" width="10" height="70" class="blade" transform="rotate(300 200 150)"/>
+
+  <!-- Labels -->
+  <text x="200" y="40" class="label">FAN MODULE - AMBIENT</text>
+  <text x="200" y="200" class="label">6-Blade Configuration</text>
+  <text x="200" y="220" class="label">Variable Pitch</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <style>
+      .anchor { fill: #9b59b6; stroke: #8e44ad; stroke-width: 2; }
+      .cable { fill: none; stroke: #34495e; stroke-width: 3; }
+      .label { fill: #2c3e50; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Anchor pattern -->
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="200" cy="120" r="8" class="anchor"/>
+  <circle cx="280" cy="160" r="8" class="anchor"/>
+  <circle cx="280" cy="240" r="8" class="anchor"/>
+  <circle cx="120" cy="240" r="8" class="anchor"/>
+  <circle cx="120" cy="160" r="8" class="anchor"/>
+
+  <!-- Cables -->
+  <line x1="200" y1="150" x2="200" y2="120" class="cable"/>
+  <line x1="200" y1="150" x2="280" y2="160" class="cable"/>
+  <line x1="200" y1="150" x2="280" y2="240" class="cable"/>
+  <line x1="200" y1="150" x2="120" y2="240" class="cable"/>
+  <line x1="200" y1="150" x2="120" y2="160" class="cable"/>
+
+  <!-- Labels -->
+  <text x="200" y="40" class="label">LUNAR ANCHOR CONFIGURATION</text>
+  <text x="200" y="100" class="label">Central Hub</text>
+  <text x="200" y="320" class="label">Pattern Radius: Variable</text>
+</svg>
