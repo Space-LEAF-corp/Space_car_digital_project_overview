@@ -49,3 +49,32 @@ pnpm dev
 # Build for production
 pnpm build
 pnpm preview
+📑 Bill of Materials (sample)
+See src/assets/data/bom.json for full list.
+
+Assembly	Part	Qty	Spec
+Chassis	Titanium spaceframe nodes	28	Ti‑6Al‑4V, CNC machined
+Landing Gear	Electrohydraulic telescoping strut	4	1.2 m stroke, 25 kN
+Anchors	Power‑pole deployer	4	2.0 m insertion depth
+Lift & Fans	Blade ring cartridge (AMB)	4	CFRP impeller, magnetic coupling
+Wings	Morphing wing panel	2	Electroactive fabric, elevons
+Avionics/Power	Hybrid turbogenerator	1	Steady VTOL power
+🌌 Mission Modes
+Road: Wheels active, fan bays sealed, regenerative suspension harvesting energy.
+
+VTOL: Extend landing gear, auto‑level, retract wheels, activate lift fans.
+
+Cruise: Deploy morphing wings, throttle lift fans to idle, aero control surfaces active.
+
+Anchor: Lower CG, deploy poles, tension guy lines, shutter intakes, lock struts.
+
+🤝 Contributing
+Pull requests are welcome!
+
+Add new schematics (SVG)
+
+Refine 3D models (GLB)
+
+Expand BOM with detailed specs
+
+Improve mission sequences or load charts
