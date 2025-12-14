@@ -33,6 +33,13 @@ export function Viewer3D() {
       const model = gltf.scene
       model.scale.set(1, 1, 1)
       scene.add(model)
+    }, undefined, (error) => {
+      console.warn('Failed to load space car model, using placeholder geometry:', error)
+      // Create a placeholder geometry
+      const geometry = new THREE.BoxGeometry(2, 1, 4)
+      const material = new THREE.MeshLambertMaterial({ color: 0x00ff88 })
+      const placeholder = new THREE.Mesh(geometry, material)
+      scene.add(placeholder)
     })
 
     const onResize = () => {

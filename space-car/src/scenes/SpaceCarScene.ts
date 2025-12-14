@@ -1,5 +1,4 @@
 import * as THREE from 'three'
-import { setupControls } from './controls'
 
 export class SpaceCarScene {
   private scene: THREE.Scene
@@ -35,9 +34,6 @@ export class SpaceCarScene {
     // Setup camera position
     this.camera.position.set(5, 5, 5)
     this.camera.lookAt(0, 0, 0)
-
-    // Setup controls
-    setupControls(this.camera, this.renderer.domElement)
 
     // Handle window resize
     window.addEventListener('resize', this.onWindowResize.bind(this))
