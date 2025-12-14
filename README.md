@@ -78,3 +78,9 @@ Refine 3D models (GLB)
 Expand BOM with detailed specs
 
 Improve mission sequences or load charts
+🌠 Vision
+The Space Car is more than a concept vehicle—it’s a blueprint for survivable mobility in hostile environments. Whether cruising Earth’s highways or anchoring against Martian dust storms, this project explores the fusion of engineering, imagination, and open collaboration.
+
+---
+
+Would you like me to also generate a **starter CONTRIBUTING.md** so others know how to add new schematics, models, or mission data to your repo?
