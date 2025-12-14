@@ -19,3 +19,33 @@ This repository hosts the **3D model viewer**, **schematics**, **bill of materia
 
 ## 📂 Repository Structure
 
+src/ ├─ components/ # React UI panels (Viewer3D, Schematics, BOM, Checklist) ├─ scenes/ # Three.js scene setup and controls ├─ assets/ │ ├─ models/ # GLB 3D models (space_car, landing_gear, blade_ring) │ ├─ schematics/ # SVG blueprints │ └─ data/ # JSON data (bom, loads, sequences) └─ styles/ # CSS theme and layout
+
+---
+
+## 🛠️ Tech Stack
+
+- **React + TypeScript** for UI
+- **Vite** for fast dev/build
+- **Three.js** for 3D visualization
+- **JSON data files** for BOM, loads, mission sequences
+- **SVG schematics** for blueprint panels
+
+---
+
+## 🚦 Quick Start
+
+```bash
+# Clone repo
+git clone https://github.com/your-username/space-car.git
+cd space-car
+
+# Install dependencies
+pnpm install
+
+# Run dev server
+pnpm dev
+
+# Build for production
+pnpm build
+pnpm preview
