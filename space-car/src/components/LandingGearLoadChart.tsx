@@ -22,21 +22,22 @@ export function LandingGearLoadChart() {
 
         <h4>Normal Operations Loads (per strut)</h4>
         <div className="load-bars">
-          {landingGear.normalOps_kN.map((load, idx) => (
-            <div key={idx} className="load-bar">
-              <span className="bar-label">Strut {idx + 1}:</span>
-              <div className="bar-container">
-                <div
-                  className="bar-fill"
-                  style={{
-                    width: `${(load / landingGear.perStrutMaxLoad_kN) * 100}%`,
-                    backgroundColor: load > landingGear.perStrutMaxLoad_kN * 0.8 ? '#ff6b6b' : '#4ecdc4'
-                  }}
-                />
-                <span className="bar-value">{load} kN</span>
+          {landingGear.normalOps_kN.map((load, idx) => {
+            const percentage = (load / landingGear.perStrutMaxLoad_kN) * 100
+            const isHighLoad = load > landingGear.perStrutMaxLoad_kN * 0.8
+            return (
+              <div key={idx} className="load-bar">
+                <span className="bar-label">Strut {idx + 1}:</span>
+                <div className="bar-container">
+                  <div
+                    className={`bar-fill ${isHighLoad ? 'bar-fill-high' : 'bar-fill-normal'}`}
+                    data-width={percentage}
+                  />
+                  <span className="bar-value">{load} kN</span>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
 

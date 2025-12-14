@@ -19,7 +19,7 @@ export function SchematicsPanel() {
         ))}
       </div>
       <div className="schematic">
-        <img src={active} alt="schematic" style={{ width: '100%', height: 'auto' }} />
+        <img src={active} alt="schematic" className="schematic-image" />
       </div>
     </div>
   )

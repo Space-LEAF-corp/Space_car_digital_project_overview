@@ -3,10 +3,11 @@
 // import { BomTable } from './components/BomTable'
 // import { LandingGearLoadChart } from './components/LandingGearLoadChart'
 // import './styles/layout.css'
+import './App.css'
 
 export default function App() {
   return (
-    <div style={{ padding: '20px', color: 'white', background: '#0b0d10', minHeight: '100vh' }}>
+    <div className="app-container">
       <h1>Space Car Digital Project</h1>
       <p>The app is working!</p>
     </div>

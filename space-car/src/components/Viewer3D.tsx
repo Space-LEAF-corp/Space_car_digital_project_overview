@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import './Viewer3D.css'
 
 export function Viewer3D() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -65,5 +66,5 @@ export function Viewer3D() {
     }
   }, [])
 
-  return <div ref={containerRef} style={{ width: '100%', height: '60vh', borderRadius: 12, overflow: 'hidden' }} />
+  return <div ref={containerRef} className="viewer3d-container" />
 }
