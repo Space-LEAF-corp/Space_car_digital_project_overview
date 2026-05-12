@@ -1,163 +1,208 @@
----
+Flagship Engineering Specification (v1.0.0‑alpha)
 
-`SPEC.md` — Space LEAF Civilian Ascent Vehicle (“Space Car”)
-
-1. Overview
-
-The Space LEAF Civilian Ascent Vehicle (“Space Car”) is a personal‑scale spacecraft designed for civilian orbital access and local LEO mobility.
-It operates as a shirtsleeve‑environment cabin capable of transporting 1–4 occupants between ground‑based launch interfaces and orbital platforms.
-
-Primary objectives:
-
-• Enable safe, repeatable civilian access to low Earth orbit
-• Provide autonomous orbital transit between stations, depots, and ports
-• Integrate with Space LEAF Corp’s broader civilian space mobility ecosystem
-
+Status: Public, civilian‑safe, conceptual engineering release
+Program: Space‑LEAF Corp — Civilian Ascent Initiative
+Vehicle Codename: Space Car
+Document Owner: Captain Leif W. Sogge
 
 ---
 
-2. Mission Profile
+1. Mission Profile
 
-2.1 Primary Mission
+The Space Car is a civilian‑first ascent vehicle designed for safe, modular, non‑militarized access to near‑Earth space.
+Its purpose is to demonstrate how personal‑scale orbital mobility could function in a future where spaceflight is intuitive, transparent, and accessible.
 
-Transport civilians between:
+Primary mission types:
 
-• Ground launch interfaces (spaceports, carrier aircraft, elevator nodes)
-• Orbital platforms (stations, hotels, depots, work hubs)
-
-
-2.2 Standard Flight Sequence
-
-1. Boarding & Preflight — Ground or high‑altitude carrier
-2. Ascent — Attached to booster/carrier system
-3. Orbital Insertion — Separation into independent flight
-4. Transit — Autonomous rendezvous to destination
-5. Docking — Soft‑capture → hard‑dock
-6. Return — Via carrier system or remain in orbit as shuttle
+• Civilian Ascent — ground‑to‑LEO interface via carrier system
+• Orbital Hops — short‑range station‑to‑station mobility
+• Emergency Return — passive survivability and safe descent
+• Tourism & Education — non‑expert passenger operations
 
 
 ---
 
-3. Safety Architecture
+2. Crew Capacity
 
-3.1 Design Philosophy
+Configurable cabin architecture supporting:
 
-Civilian‑first, NASA‑respectful.
-Meets or exceeds expectations for human‑rated LEO transport.
+• Solo Mode — 1 pilot
+• Duo Mode — 1 pilot + 1 passenger
+• Family Pod Mode — up to 4 occupants
 
-3.2 Core Safety Systems
 
-• Redundant life support: O₂, CO₂ scrubbing, thermal, pressure, humidity
-• Abort modes: Pre‑launch, ascent, orbital anomaly
-• Passive survivability: Micrometeoroid shielding, safe‑mode power/attitude
-• Human factors: Panic‑proof UI with clear state indicators• SAFE
-• ASCENT
-• DOCKED
-• ABORT
+Cabin layout prioritizes:
 
+• intuitive controls
+• panic‑proof UI
+• redundant life support
+• high‑visibility interior
 
 
 ---
 
-4. Vehicle Systems
+3. Structural Architecture
 
-4.1 Structure
+The Space Car uses a Modular Ascent Frame (MAF) built around three core components:
 
-• Pressurized shirtsleeve cabin
-• Reinforced hull with debris protection
-• Windows or external camera feeds
-
-
-4.2 Propulsion
-
-• Role: Rendezvous, station‑keeping, small orbital transfers
-• System: Electric or hypergolic RCS + small main thrusters
+• Primary Pressure Shell — composite hull with micrometeoroid shielding
+• Mission Module Bay — interchangeable payload or passenger modules
+• Docking Spine — IDSS‑inspired civilian docking interface
 
 
-4.3 Power
+Materials:
 
-• Battery + solar hybrid
-• 24–72 hour safe‑mode endurance
-
-
-4.4 Avionics
-
-• Autonomous rendezvous & docking
-• Manual override for trained operators
-• Ground + orbital control integration
-
-
-4.5 Life Support
-
-• Baseline: 24 hours
-• Contingency: 72 hours
-• Seating, restraints, emergency masks, med kit
+• carbon‑titanium composite
+• ceramic thermal shielding
+• layered impact‑resistant foam
+• transparent aluminum‑grade viewport
 
 
 ---
 
-5. Interfaces & Ecosystem Integration
+4. Propulsion Stack
 
-5.1 Docking
+Hybrid propulsion system optimized for atmospheric exit and orbital maneuvering:
+
+• Atmospheric Assist Thrusters — high‑efficiency air‑breathing boosters
+• Transition Burn Engine — hybrid chemical engine for ascent corridor
+• Orbital Micro‑Thrusters — cold‑gas or ion‑based for fine maneuvering
+• Emergency Retro Pack — passive descent stabilization
+
+
+Propulsion philosophy:
+
+• no exotic fuels
+• no classified tech
+• no military‑grade systems
+• fully civilian‑safe framing
+
+
+---
+
+5. Safety Envelope
+
+The Space Car is designed around a Civilian Safety Envelope (CSE) — a layered system ensuring survivability even in non‑expert hands.
+
+Safety systems include:
+
+• Redundant O₂ + CO₂ scrubbers
+• Thermal auto‑regulation
+• Passive reentry stabilization
+• Auto‑dock alignment
+• Abort‑to‑safe‑orbit mode
+• Panic‑proof UI with lockout logic
+
+
+If you want to expand this section, tap civilian safety envelope.
+
+---
+
+6. Avionics & Control
+
+The avionics suite is built for clarity and redundancy:
+
+• HUD‑based navigation
+• Simplified orbital pathing
+• Auto‑corrected attitude control
+• Ground‑to‑orbit comms link
+• Space‑LEAF traffic management integration
+
+
+Control philosophy:
+
+“A civilian should be able to operate it without fear.”
+
+---
+
+7. Docking & Port Compatibility
+
+The Space Car uses a civilian‑safe docking spine inspired by NASA’s IDSS standard.
 
 Compatible with:
 
-• Space LEAF ports
-• NASA‑style IDSS‑inspired docking systems
+• Space‑LEAF orbital ports
+• civilian research stations
+• tourism platforms
+• emergency shelters
 
 
-5.2 Communications
+Docking features:
 
-• Ground control
-• Orbital traffic management
-• NASA/partner networks (where applicable)
-
-
-5.3 Space DMV Integration
-
-Each Space Car includes:
-
-• Registration ID
-• Operator license class
-• Insurance profile (risk class, mission type, operator history)
+• soft‑capture ring
+• auto‑alignment sensors
+• low‑force latching
+• redundant seals
 
 
 ---
 
-6. Program Phases
+8. Life Support
 
-Phase 0 — Paper & Simulation
+Life support is designed for 24–72 hour missions.
 
-• Public specification
-• Mission simulations
-• UI mockups
-• Safety logic trees
+Systems include:
 
-
-Phase 1 — Mockup & VR
-
-• Full‑scale cabin mockup
-• VR/AR training & UX testing
-
-
-Phase 2 — Subscale Flight Article
-
-• Uncrewed testbed for rendezvous/docking
-
-
-Phase 3 — Human‑Rated Prototype
-
-• NASA‑style review gates
-• Space DMV + insurance framework active
+• O₂ generation + backup tanks
+• CO₂ scrubbing
+• humidity + temperature control
+• emergency rations
+• medical micro‑kit
 
 
 ---
 
-7. Licensing & Public Status
+9. Mission Modules
 
-• Status: Public, safe for civilian review
-• Author: Captain Leif W. Sogge
-• Maintainer: Space LEAF Corp
+The Mission Module Bay supports interchangeable modules:
+
+• Passenger Pod
+• Cargo Pod
+• Science Pod
+• Tourism Pod
+• Emergency Pod
+
+
+Each module includes its own micro‑systems and safety redundancies.
+
+---
+
+10. Program Philosophy
+
+The Space Car adheres to the Space‑LEAF principles:
+
+• Accessibility — understandable engineering
+• Transparency — no classified dependencies
+• Neutrality — no military alignment
+• Civilians First — safety over performance
 
 
 ---
+
+11. Limitations
+
+This is a conceptual engineering framework, not a flight‑ready prototype.
+
+Limitations include:
+
+• no validated aerothermal data
+• no certified propulsion system
+• no real‑world stress testing
+• no regulatory approval
+
+
+This document is intended for:
+
+• students
+• hobbyists
+• engineers
+• worldbuilders
+• creative technologists
+
+
+---
+
+12. License
+
+Civilian‑safe documentation license.
+No military, weapons, or classified use permitted.
