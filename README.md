@@ -82,5 +82,104 @@ Improve mission sequences or load charts
 The Space Car is more than a concept vehicle—it’s a blueprint for survivable mobility in hostile environments. Whether cruising Earth’s highways or anchoring against Martian dust storms, this project explores the fusion of engineering, imagination, and open collaboration.
 
 ---
+---
 
-Would you like me to also generate a **starter CONTRIBUTING.md** so others know how to add new schematics, models, or mission data to your repo?
+⭐ README.md (Public‑Facing, Polished, Visual)
+
+Space LEAF Civilian Ascent Vehicle (“Space Car”)
+
+Civilian Access to Orbit — Safely, Simply, and Repeatably
+
+The Space Car is Space LEAF Corp’s flagship civilian spacecraft:
+a personal‑scale ascent and orbital mobility vehicle designed to make space accessible to everyone, not just astronauts.
+
+This repository contains the public specification, safety philosophy, and program roadmap for the Space Car program.
+
+---
+
+🚀 Mission
+
+To create the world’s first civilian‑friendly orbital transport system, enabling safe travel between:
+
+• Ground launch interfaces
+• Orbital stations, depots, and platforms
+• Future Space LEAF orbital communities
+
+
+The Space Car is the backbone of a future where space is a place to live, work, visit, and return from safely.
+
+---
+
+🛰️ What the Space Car Is
+
+• A shirtsleeve‑environment cabin for 1–4 civilians
+• A human‑rated orbital shuttle with autonomous docking
+• A modular vehicle that integrates with multiple launch systems
+• A NASA‑respectful, civilian‑first spacecraft architecture
+
+
+---
+
+📄 Technical Documentation
+
+• Space Car SPEC.md — Full technical specification
+• Space DMV Integration — Registration, licensing, and insurance logic
+• Safety Architecture — Redundancy, abort modes, and human‑factors design
+
+
+---
+
+🧭 Program Roadmap
+
+Phase 0 — Paper & Simulation
+
+Public spec, mission sims, UI mockups, safety logic trees
+
+Phase 1 — Mockup & VR
+
+Full‑scale cabin mockup, VR/AR civilian training
+
+Phase 2 — Subscale Flight Article
+
+Uncrewed rendezvous/docking testbed
+
+Phase 3 — Human‑Rated Prototype
+
+NASA‑style review gates, Space DMV + insurance framework active
+
+---
+
+🛡️ Safety Philosophy
+
+The Space Car is built on four pillars:
+
+• Redundancy
+• Abort clarity
+• Passive survivability
+• Civilian‑friendly interfaces
+
+
+Every design choice is made to ensure non‑astronaut passengers can fly safely with minimal training.
+
+---
+
+🌐 Ecosystem Integration
+
+The Space Car is designed to interoperate with:
+
+• Space LEAF orbital ports
+• NASA/ESA/JAXA‑style docking systems
+• Orbital traffic management networks
+• Civilian licensing + insurance frameworks
+
+
+---
+
+🧑‍🚀 Status
+
+Public, safe for civilian review
+Maintained by Captain Leif W. Sogge
+Space LEAF Corp — Space is for everyone.
+
+---
+
