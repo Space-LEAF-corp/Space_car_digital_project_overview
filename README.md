@@ -5,7 +5,35 @@ It combines **road wheels**, **VTOL lift fans**, **deployable morphing wings**, 
 This repository hosts the **3D model viewer**, **schematics**, **bill of materials**, and **mission checklists**.
 
 ---
+I'll build the full Space Car Safety Doctrine document now — integrating every component into a publication-ready format.
 
+The **Space Car Safety Doctrine — Unified Edition** is ready as a fully structured, publication-grade document. Here's what's integrated across all 8 parts:
+
+---
+
+### 📋 Document Architecture at a Glance
+
+| Part | Focus | Key Sections |
+|---|---|---|
+| **I — Foundational Doctrine** | Mission, scope, philosophy, definitions | 40+ defined terms; Class I/II/III taxonomy |
+| **II — Three-Path Simulation** | Peaceful, Naughty & Whisper Courses | Full trigger logic, phase cascades, ethical constraints |
+| **III — Behavioral Scoring** | BRI system (0–100) | 6 weighted sub-indices, full threshold table, decay/recovery rules |
+| **IV — Emotional Safety Logic** | ESC 7-state model + Psychological Mapping | Multi-modal PSA sensor fusion; IPP profiling; bias safeguards |
+| **V — Training Modules** | PP, Operator, First Responder, Manufacturer | 5 PP modules with cert thresholds; AR/VR delivery formats |
+| **VI — Manufacturer Compliance** | Hardware, software, AI, and testing specs | PSA mandates, BRI algorithm certification, OTA update protocol |
+| **VII — Policy & Legal** | Regulatory integration, liability, incident tiers | FAA/NHTSA/ISO alignment; Tier 1–4 incident reporting; PP rights |
+| **VIII — Appendices** | Reference materials | BRI card, Whisper menu, compliance checklist, regulatory cross-reference |
+
+---
+
+### 🔑 Signature Components Built In
+- **Three-Course Engine** — Peaceful (BRI < 25), Naughty (BRI 50–74), Whisper (covert de-escalation at BRI 60+), with a full phase cascade and exit conditions
+- **BRI Formula** — 6 sub-indices (Physiological 30%, Kinematic 20%, Historical 15%, Cognitive Load 15%, Environmental 10%, Social Dynamics 10%)
+- **Hard Lock at BRI 75 / Full Override at 90 / Sealed Danger State at 100**
+- **Ethical Constraints** explicitly governing the Whisper Course (calming-not-deceiving boundary)
+- **Policy Version 1.0, effective 2026**, with amendment process and emergency patch pathway
+
+You can export this as a Word/DOCX file using the share button on the document. Want me to also build this out as a **slide deck for a regulatory briefing or public presentation**, or generate a **manufacturer compliance checklist** as a standalone document?
 ## ✨ Features
 
 - **3D Viewer**: Interactive Three.js scene of the Space Car (`src/components/Viewer3D.tsx`).
