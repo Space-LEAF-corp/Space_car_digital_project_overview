@@ -5,8 +5,6 @@ It combines **road wheels**, **VTOL lift fans**, **deployable morphing wings**, 
 This repository hosts the **3D model viewer**, **schematics**, **bill of materials**, and **mission checklists**.
 
 ---
-I'll build the full Space Car Safety Doctrine document now — integrating every component into a publication-ready format.
-
 The **Space Car Safety Doctrine — Unified Edition** is ready as a fully structured, publication-grade document. Here's what's integrated across all 8 parts:
 
 ---
