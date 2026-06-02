@@ -1,0 +1,35 @@
+[GoPro / AEM Camera + IMU]
+          |
+          v
+ [AEM Telemetry Ingest]
+  - sync timestamps
+  - normalize units
+          |
+          v
+ [Motion & Vision Processing]
+  - IMU filtering
+  - optical flow
+  - head/lean detection
+  - env motion detection
+          |
+          v
+ [Maneuver Inference Engine]
+  - userMotion = detectUserMotion()
+  - envEvent   = detectEnvironmentalMotion()
+  - maneuverConfidence = computeManeuverConfidence()
+          |
+          v
+ [Signal Compliance Checker]
+  - read OEM signal/intent state
+  - checkSignalCompliance()
+          |
+          v
+ [OEM Vehicle Systems]
+  - HUD / haptic feedback
+  - logging
+  - optional soft constraints
+          |
+          v
+ [Learning Engine]
+  - learnFromSession()
+  - update thresholds/model
