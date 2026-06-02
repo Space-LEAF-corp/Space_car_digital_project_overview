@@ -1,0 +1,35 @@
+{
+  "$id": "MotionFrame",
+  "type": "object",
+  "properties": {
+    "timestamp": { "type": "string", "format": "date-time" },
+    "gyro": {
+      "type": "object",
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "z": { "type": "number" }
+      },
+      "required": ["x", "y", "z"]
+    },
+    "accel": {
+      "type": "object",
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "z": { "type": "number" }
+      },
+      "required": ["x", "y", "z"]
+    },
+    "cameraOrientation": {
+      "type": "object",
+      "properties": {
+        "yaw": { "type": "number" },
+        "pitch": { "type": "number" },
+        "roll": { "type": "number" }
+      },
+      "required": ["yaw", "pitch", "roll"]
+    }
+  },
+  "required": ["timestamp", "gyro", "accel", "cameraOrientation"]
+}
